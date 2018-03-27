@@ -1,7 +1,7 @@
 class Question2 {
 
     public static void main(String[] args) {
-        List list=new ArrayList()
+        List list=[]
         list.add(1)
         list.add(1)
         list.add(5)

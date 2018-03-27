@@ -13,7 +13,7 @@ class Question6 {
 
 
          println list.get(6)
-        // println list.get(9)
+         //println list.get(9)
 
 
 
