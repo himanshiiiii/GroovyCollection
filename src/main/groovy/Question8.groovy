@@ -21,7 +21,7 @@ class Employee{
 
 class Question8{
     public static void main(String[] args) {
-        List<Employee> list = new ArrayList<Employee>()
+        List<Employee> list =[]
         list.add(new Employee("HIMANSHI", 20, 30000))
         list.add(new Employee("POOJA", 21, 300))
         list.add(new Employee("AGRIMA", 21, 30))
