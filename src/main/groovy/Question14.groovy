@@ -19,10 +19,8 @@ class Question14 {
             else if (list[i] % 5 == 0) {
                 println("buzz")
                  i++
-
-            }
-
-            else{
+             }
+             else{
                 println(list[i])
                 i++
             }

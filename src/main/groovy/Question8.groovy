@@ -33,11 +33,8 @@ class Question8{
         list.add(new Employee("NIHARIKA", 32, 80000))
         list.add(new Employee("MANOJ", 35, 26000))
 
-        //println list
-
         // list of employees who earn less than 5000
         list.findAll {it.salary<5000}.each {println(it.name)}
-
 
         //oldest age
         def max = list.max { it.age }
@@ -53,10 +50,6 @@ class Question8{
 
         //list of names
         list.each {println(it.name)}
-
-
-
-
     }
 }
 

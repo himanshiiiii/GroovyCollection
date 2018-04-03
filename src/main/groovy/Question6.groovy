@@ -10,8 +10,6 @@ class Question6 {
             println(a)
             i++
         }
-
-
          println list.get(6)
         // println list.get(9)
 

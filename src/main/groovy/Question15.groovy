@@ -7,10 +7,8 @@ class Question15{
         println list.add("second")
         list.pop()
         println(list)
-
         list.push("heelp")
         println(list)
-
         println list.get(list.size() - 1)
 
 

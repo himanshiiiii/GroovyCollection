@@ -1,13 +1,10 @@
 class Question23 {
 
     static void main(String[] args) {
-
         String string = "http://www.google.com?name=johny&age=20&hobby=cricket"
         URL url = new URL(string)
         String query = url.getQuery()
-
         String[] queries = query.split("&")
-
         Map map = [:]
         for (int i = 0; i < queries.length; i++)
             queries.each
@@ -16,8 +13,6 @@ class Question23 {
                     }
         println("Name = " + map.get("name"))
         println("hobby = " + map.get("hobby"))
-
-
         println(url.getQuery())
     }
 }
